@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css"
+        integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>CL RAIJU</title>
+</head>
+
+<body>
+    <header>
+        <a href='#banner'><img src="./img/raiju_logo.jpg" alt=""></a>
+        <ul>
+            <li class="underlinetransition"><a href='#quem-somos'>QUEM SOMOS</a></li>
+            <li class='underlinetransition'><a href='#nosso-dojo'>NOSSO DOJÔ</a></li>
+            <li class="underlinetransition"><a href='#onde-estamos'>ONDE ESTAMOS</a></li>
+            <li class="underlinetransition"><a href='#contatos'>CONTATOS</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id='banner'>
+            <div>
+                <h1>CENTRO DE LUTAS</h1>
+                <br>
+                <img src="./img/raiju_logo_transparent.png" alt="">
+            </div>
+        </section>
+        <section id='quem-somos'>
+            <div class="card">
+                <div class="upper-card">FÁBIO VIANA - MESTRE &nbsp; <a data-target="#fabio-dropdown"><i
+                            class="fas fa-caret-down" style="border:2px solid var(--orange);padding: 0px 5px"></i></a>
+                </div>
+                <ul id="fabio-dropdown" class='dropdown' data-state="false">
+                    <li>faixa preta em muay thai, taekwondo, tai chi chuan, kung fu e luta greco-romana</li>
+                    <li>experiente em jiu-jitsu e karatê</li>
+                    <li>20+ anos lecionando artes marciais</li>
+                    <li>profundo conhecedor de biomecânica</li>
+                    <li>habilitado para dar treinos funcionais e personalizados</li>
+                </ul>
+                <img src="./img/fabio.jpeg" alt="">
+                <div class="lower-card">Faixa preta em 5 artes marciais com 30+ anos de experiência</div>
+            </div>
+            <div class="card">
+                <div class="upper-card">juliana peixoto - instrutora &nbsp; <a data-target="#juliana-dropdown"><i
+                            class="fas fa-caret-down" style="border:2px solid var(--orange);padding: 0px 5px"></i></a>
+                </div>
+                <ul id="juliana-dropdown" class='dropdown' data-state="false">
+                    <li>instrutora com 7+ anos de experiência em muay thai, atualmente treinando para a faixa preta</li>
+                </ul>
+                <img src="./img/juliana.jpeg" alt="">
+                <div class="lower-card">Instrutora faixa azul-preta com 7+ anos de experiência</div>
+            </div>
+        </section>
+        <section id="nosso-dojo">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./img/fachada.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/fachada-2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/dojo.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/dojo2.webp" alt="">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </section>
+        <section id="onde-estamos">
+            <!-- <script src="https://maps.google.com/maps/api/js?key=AIzaSyDhh53ywPlpfO814nceAem1G1eHAiRjhUM" type="text/javascript"></script> -->
+            <img src="./img/mapa.png" alt="">
+            <div>
+                <h1>
+                    <i class="fas fa-map-marker-alt" style="color:var(--orange)"></i> Rua Mário Neves - 221,
+                </h1>
+                <h1>Ilha da Conceição, Niterói, RJ</h1>
+            </div>
+        </section>
+    </main>
+    <footer id='contato'>
+        <h1>Agende uma aula experimental conosco:</h1>
+        <ul class="social">
+            <a href="https://www.instagram.com/clraiju/" target="_blank">
+                <li>
+                    <i class="fab fa-instagram"></i>
+                </li>
+            </a>
+            <li>
+                <i class="fas fa-phone"></i>
+            </li>
+            <li>
+                <i class="fab fa-whatsapp"></i>
+            </li>
+        </ul>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
