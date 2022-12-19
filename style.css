@@ -246,7 +246,7 @@ section:not(:last-child), header {
     width:80vw;
     margin: 0px 10vw;
     text-align: center;
-    letter-spacing: -3px;
+    letter-spacing: -2px; 
     gap: 15px;
 }
 
