@@ -265,9 +265,9 @@ section:not(:last-child), header {
     background: var(--orange);
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
-    padding: 20px 10px;
+    padding: 20px 0px;
     margin-top: 20px;
 }
 
