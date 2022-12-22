@@ -42,7 +42,7 @@ section h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--orange);
-    letter-spacing: -1px;
+    letter-spacing: -2px;
 }
 
 a {
@@ -266,11 +266,11 @@ section:not(:last-child), header {
     width:50%;
 }
 
-#onde-estamos img {
+/* #onde-estamos img {
     height:100%;
     width:auto;
     object-fit: fill;
-}
+} */
 
 #contato {
     max-width:100vw;
